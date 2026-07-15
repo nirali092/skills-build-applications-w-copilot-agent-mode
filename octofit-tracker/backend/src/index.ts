@@ -4,7 +4,7 @@ import express from 'express';
 import { connectDatabase } from './config/database';
 import router from './routes';
 
-dotenv.config();
+dotenv.config(); 
 
 const app = express();
 const port = Number(process.env.PORT || 8000);
